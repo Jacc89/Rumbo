@@ -1,0 +1,154 @@
+header{
+    width: 100%;
+    position: relative;
+    padding-bottom: 200px;
+    padding-top: 40px;
+    background: url(../img/bg-header.png) center no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+header .nav{
+    justify-content: flex-end;
+    align-items: center;
+}
+header .nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+header .nav ul li{
+     display: inline-block;
+
+ }
+ header .nav ul li a{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 4px 12px;
+    margin: 0px 4px ;
+    text-decoration: none;
+ }
+ header .hero{
+     padding-top: 150px;
+     text-align: center;
+ }
+ header  h1{
+     color: #e8f00c;
+ }
+ header p{
+     color: #ffffff;
+     font-size: 20px;
+     margin-bottom: 50px;
+ }
+ header .boton{
+     background: #e8f00c;
+     font-size: 23px;
+     color:gray;
+     
+ }
+ #planes{
+     padding: 95px 0px 100px;
+ }
+ #planes h2{
+     font-weight: 700;
+     margin-bottom: 40px;
+ }
+ #planes p{
+     font-size: 20px;
+ }
+ #planes .items-planes .item{
+     position: relative;
+     
+
+ }
+ #planes .items-planes .item h3{
+     position: absolute;
+     top: 110px;
+     right: 0;
+     left: 0;
+     margin: 0 auto;  
+     color:#e8f00c ;
+     z-index: 2;
+     }
+     #planes .items-planes{
+         justify-content: space-around;
+         margin-top: 70px;
+     }
+    #destinos{
+        padding:100px 0px 100px;
+    }
+    #destinos .items-destinos{
+        justify-content: space-around;
+        margin-top: 70px;
+
+    }
+    #destinos  h2{
+        font-weight: 700;
+        margin-bottom: 100px;
+        color:#e8f00c ;
+        font-size: 40px;
+    }
+    #destinos h3{
+        color: #ffffff  ;
+    }
+   
+   #destinos{
+    width: 100%;
+    padding-bottom: 20px;
+    position: relative;
+    padding-bottom: 40px;
+    background: url(../img/bg-destinos.png)  no-repeat;
+    background-size: cover;
+
+   }
+   #destinos .items-destinos .item{
+       margin-top: 50px;
+   }
+   #contacto{
+    padding:50px 0px 0px;
+   background: #e8f00c;
+   }
+   #contacto h2{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#contacto p{
+    font-weight: 500;
+    font-size: 20px;
+}
+#contacto .form-row{
+    margin-top: 30px;
+    justify-content: center;
+   
+    
+}
+#contacto .boton{
+    background:#000000;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 5px 2px;
+}
+footer{
+    background: #000000;
+    margin-top: 100px;
+    padding:40px 0px 40px;
+}
+footer p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) and (min-width: 320px){
+    header .logo{
+        text-align: center;
+    }
+    header .nav{
+        justify-content: center;
+        padding-top: 30px;
+    }
+    header .logo img{
+        max-width: 100%;
+    }
+}
